@@ -16,7 +16,7 @@ This microservices solution comprises four projects:
 
 ### Prerequisites
 
-- .NET SDK
+- .NET 6.0
 - RabbitMQ server
 - Docker
 
@@ -26,14 +26,20 @@ This microservices solution comprises four projects:
    git clone https://github.com/jagat2189/NAGP_GRPC.git
    cd your-repo
 2. **Run RabbitMQ:** 
-	Start RabbitMQ on Docker with the command
+	Start RabbitMQ on Docker with below command and it will start rabbitmq on localhost with the default username/password i.e. guest/guest  
+
+	```bash
 	docker run -d --hostname rmq --name rebbit-server -p 15672:15672 -p 5672:5672 rabbitmq:3-management
-	This will start rabbitmq on localhost with the default username/password.
+
 3. **Build and Run Projects:** 
-Open MicroservicesSolution.sln and run the solution in visual studio. This will start all four project i.e Product Service, Order Microservice, Notification1 serive, notification2 service
+
+- Open MicroservicesSolution.sln and run the solution in visual studio. 
+- This will start all four project i.e Product Service, Order Microservice, Notification1 serive, notification2 service
+
 4. **Access Swagger UI:**
-Open your browser and navigate to the Swagger UI for the Product Service: https://localhost:7196/swagger/index.html
-Use the Swagger UI to place and update orders. This will trigger events and notify the corresponding services.
+- Open your browser and navigate to the Swagger UI for the Product Service: https://localhost:7196/swagger/index.html
+- Use the Swagger UI to place and update orders. This will trigger events and notify the corresponding services.
+
 5. **View Notifications**
 Check the console outputs of Notification Service 1 and Notification Service 2 to see notifications for order creation and updates.
 
