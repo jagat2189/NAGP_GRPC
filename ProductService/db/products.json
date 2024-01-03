@@ -1,0 +1,72 @@
+[
+  {
+    "productId": 1,
+    "name": "Premium Laptop X",
+    "description": "Powerful and lightweight laptop for professionals.",
+    "price": 1499.99,
+    "color": "Silver"
+  },
+  {
+    "productId": 2,
+    "name": "Smartphone Pro Max",
+    "description": "Cutting-edge smartphone with advanced features.",
+    "price": 1099.99,
+    "color": "Black"
+  },
+  {
+    "productId": 3,
+    "name": "Designer Watch Elegance",
+    "description": "Luxurious watch with a classic design.",
+    "price": 499.99,
+    "color": "Gold"
+  },
+  {
+    "productId": 4,
+    "name": "Ultra HD Smart TV",
+    "description": "Immersive entertainment with stunning visuals.",
+    "price": 799.99,
+    "color": "Black"
+  },
+  {
+    "productId": 5,
+    "name": "Gourmet Coffee Maker",
+    "description": "Brew your perfect cup of coffee with style.",
+    "price": 129.99,
+    "color": "Stainless Steel"
+  },
+  {
+    "productId": 6,
+    "name": "Active Noise Cancelling Headphones",
+    "description": "Experience superior sound quality with noise cancellation.",
+    "price": 199.99,
+    "color": "Space Gray"
+  },
+  {
+    "productId": 7,
+    "name": "Digital Camera Pro",
+    "description": "Capture stunning moments with professional-grade photography.",
+    "price": 899.99,
+    "color": "Silver/Black"
+  },
+  {
+    "productId": 8,
+    "name": "Luxury Leather Handbag",
+    "description": "Chic and spacious handbag for the fashion-forward.",
+    "price": 349.99,
+    "color": "Cognac"
+  },
+  {
+    "productId": 9,
+    "name": "Fitness Tracker Ultra",
+    "description": "Stay active and monitor your health with precision.",
+    "price": 79.99,
+    "color": "Rose Gold"
+  },
+  {
+    "productId": 10,
+    "name": "Home Automation System",
+    "description": "Smart home control for modern living.",
+    "price": 1299.99,
+    "color": "White"
+  }
+]
